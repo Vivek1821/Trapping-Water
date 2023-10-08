@@ -13,7 +13,7 @@ function visualizePillars(heights, leftMax, rightMax) {
       if (j >= heights[i]) {
         box.className = "box blueColor";
       } else {
-        box.className = "box greyColor";
+        box.className = "box greenColor";
       }
       column.appendChild(box);
     }

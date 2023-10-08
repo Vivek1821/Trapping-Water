@@ -5,7 +5,7 @@
 }
 
 .column {
-  width: 50px;
+  width: 100px;
   height: 200px;
   display: flex;
   flex-direction: column-reverse;
@@ -13,18 +13,19 @@
 
 .box {
   width: 100%;
-  border: 1px solid black;
+
   margin: 2px;
+  border-radius: 10px;
 }
 
-.greyColor {
-  background-color: grey;
-  width: 50px;
+.greenColor {
+  background-color: rgb(206, 241, 222);
+  width: 100px;
   height: 25px;
 }
 
 .blueColor {
-  background-color: blue;
-  width: 50px;
+  background-color: rgb(147, 207, 241);
+  width: 100px;
   height: 25px;
 }
